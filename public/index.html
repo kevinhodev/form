@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../src/styles.css" />
+    <title>TestBook</title>
+  </head>
+  <body>
+    <header>
+      <h1 aria-label="heading" class="title">TestBook</h1>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="frame">
+          <img
+            class="frame__logo"
+            src="../src/assets/vectors/logo.svg"
+            alt="logo"
+          />
+          <div class="testimonials">
+            <div class="testimonial">
+              <img class="image" src="../src/assets/images/people.jpg" alt="" />
+              <div class="comment">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                voluptate modi eveniet quod, quasi omnis quos hic deleniti.
+                Eius, iure?"
+              </div>
+              <div class="footer">
+                <div class="info">
+                  <h3>Olivia Rodrigo</h3>
+                  <p>Lead Designer, Layers</p>
+                  <p>Web Development Agency</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <img
+                class="image"
+                src="../src/assets/images/people2.jpg"
+                alt=""
+              />
+              <div class="comment">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                obcaecati."
+              </div>
+              <div class="footer">
+                <div class="info">
+                  <h3>John John</h3>
+                  <p>Programmer</p>
+                  <p>Web Development Agency</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <img
+                class="image"
+                src="../src/assets/images/people3.jpg"
+                alt=""
+              />
+              <div class="comment">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+                obcaecati."
+              </div>
+              <div class="footer">
+                <div class="info">
+                  <h3>Amanda Silva</h3>
+                  <p>Web Designer</p>
+                  <p>Web Development Agency</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <img
+                class="image"
+                src="../src/assets/images/people4.jpg"
+                alt=""
+              />
+              <div class="comment">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur facere dolorem recusandae ea repellat iste velit,
+                rem."
+              </div>
+              <div class="footer">
+                <div class="info">
+                  <h3>Alan Walker</h3>
+                  <p>Lead Programmer</p>
+                  <p>Tesla</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="controls">
+            <div class="arrow arrow-left">
+              <img
+                src="../src/assets/vectors/arrow-left.svg"
+                alt="arrow-left"
+              />
+            </div>
+            <div class="arrow arrow-right">
+              <img
+                src="../src/assets/vectors/arrow-right.svg"
+                alt="arrow-right"
+              />
+            </div>
+          </div>
+        </div>
+        <form class="form" id="form">
+          <div class="form__header">
+            <h2>Crie uma conta</h2>
+            <p>Vamos começar com seu teste gratuito de 30 dias</p>
+          </div>
+          <div class="form__main">
+            <div class="form__control">
+              <input type="text" id="name" placeholder="Nome" autofocus />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+            <div class="form__control">
+              <input type="text" id="lastName" placeholder="Sobrenome" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+
+            <div class="form__control">
+              <input type="email" id="email" placeholder="Email" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+            <div class="form__control">
+              <input type="password" id="password" placeholder="Senha" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+            <div class="form__buttons">
+              <button type="submit" class="form__button">Criar conta</button>
+              <button type="submit" class="form__google-button">
+                <img src="../src/assets/vectors/google.svg" alt="google" />
+                Registrar com o Google
+              </button>
+            </div>
+            <div class="form__link">
+              <p>Já tem uma conta? <a href="#">Entrar</a></p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script type="module" src="../src/main.js"></script>
+  </body>
+</html>

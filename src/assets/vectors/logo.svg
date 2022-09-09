@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="96" height="96" viewBox="0 0 96 96" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 48 48)" id="_mKdv4QlLCQmt9PWVNoIx"  >
+<linearGradient id="SVGID_194_1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -22.73 -25.25)"  x1="2.164599774520852" y1="-1.443066516347237" x2="44.73506200676438" y2="49.785794813979685">
+<stop offset="0%" style="stop-color:#E7A4A4;stop-opacity: 1"/>
+<stop offset="50%" style="stop-color:#C24040;stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:#F2A7A7;stop-opacity: 1"/>
+</linearGradient>
+<filter id="SVGID_0" y="-28%" height="156%" x="-31%" width="162%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="0"></feGaussianBlur>
+	<feOffset dx="5" dy="4" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="0.43"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<path style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_194_1); fill-rule: nonzero; opacity: 0.75;filter: url(#SVGID_0);" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -22.7283 -25.25366 L 22.7283 -25.25366 L -22.7283 25.253670000000003 L 22.7283 25.253670000000003 z" stroke-linecap="round" />
+</g>
+</svg>
